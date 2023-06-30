@@ -20,7 +20,7 @@ export default function about() {
           <div className="flex flex-col mb-20 items-center ">
             <div>
               <img
-                src="https://theburnhambox.com/frida/wp-content/uploads/sites/14/2015/02/16-1080x711.jpg"
+                src="https://theburnhambox.com/frida/wp-content/uploads/sites/14/2015/02/27.jpg"
                 alt="image aaegi "
               />
 
@@ -28,51 +28,35 @@ export default function about() {
             <div className="bg-white pt-10 max-w-[1080px] pb-20 ">
 
               <div className="text-center pt-5 pb-8 text-3xl text-[#555]">
-                Childhood
+                Let's Get Connected
               </div>
               <p className=" flex font-[1.4em] leading-8 text-[#444] px-40 ">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor vuise invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.
               </p>
-              <p className=" flex font-[1.4em] leading-8 text-[#444] px-40 mt-4 ">
+              <p className=" flex font-[1.4em] leading-8 text-[#444] px-40  ">
                 Cover Photo: Sophie Fontaine
               </p>
-              <p className=" flex font-[1.4em] leading-8 text-[#444] px-40 ">
-                Thumbnail Photo: Worteinbildern
-              </p>
-              <p className=" flex font-[1.4em] leading-8 text-[#444] px-40 mt-4 mb-2">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit am.
-              </p>
-
-
-              <div className="text-center pt-5 pb-8 text-3xl text-[#555]">
-                Education and Business Life
-              </div>
+             
               <p className=" flex font-[1.4em] leading-8 text-[#444] px-40 mt-4">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit am.
-              </p>
+                Name*</p>
+              <input className='flex font-[1.4em] leading-8 text-[#444] px-40 mt-4 mb-2 bg-gray-300 ml-40 h-auto w-[30%]'  ></input>
+
+              <p className=" flex font-[1.4em] leading-8 text-[#444] px-40 mt-4">
+                Email*</p>
+              <input className='flex font-[1.4em] leading-8 text-[#444] px-40 mt-4 mb-2 bg-gray-300 ml-40 h-auto w-[30%]'  ></input>
+
+
+              <p className=" flex font-[1.4em] leading-8 text-[#444] px-40 mt-4">
+                Subject*</p>
+              <input className='flex font-[1.4em] leading-8 text-[#444] px-40 mt-4 mb-2 bg-gray-300 ml-40 h-auto w-[30%]'  ></input>
+
+
+              <p className=" flex font-[1.4em] leading-8 text-[#444] px-40 mt-4">
+                Subject*</p>
+              <textarea className='flex font-[1.4em] leading-8 text-[#444] px-40 mt-4 mb-2 bg-gray-300 ml-40 h-[200px] w-[40%]'  ></textarea>
+
 
               
-                
-            
-              <div className='relative ml-20'>
-              <div class="absolute left-[120px] w-1 bg-[#1c7791] h-[65px]  bg-blue-600"></div>
-                <p className=" flex font-[1.4em] leading-8 text-[#444] w-[100%] px-40 mt-4 italic">
-                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore.
-                </p>
-              </div>
-
-              <p className=" flex font-[1.4em] leading-8 text-[#444] px-40 mt-4">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit am.
-              </p>
-
-              <div className="text-center pt-5 pb-8 text-3xl text-[#555]">
-              What I Like
-              </div>
-              <p className=" flex font-[1.4em] leading-8 text-[#444] px-40 ">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor vuise invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.
-              </p>
-
-
 
 
               <div className="flex pt-10 justify-center mb-30 ">

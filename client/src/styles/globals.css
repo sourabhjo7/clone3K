@@ -38,12 +38,26 @@
       bottom: 0px;
       left: 0px;
       width: 100%;
+      top: 40%;
       height: 24px;
     }
 
-    .zig-zag-header:after {
-      
+    .zig-zag-about:after {
+            background: linear-gradient(-135deg, #ffffff 12px, transparent 0), linear-gradient(135deg, #ffffff 12px, transparent 0);
+            background-position: left-bottom;
+            background-repeat: repeat-x;
+            background-size: 24px 24px;
+            content: " ";
+            position: relative;
+
+            display: block;
+            bottom: 0px;
+            left: 0px;
+            width: 60%;
+            height: 100px;
+        
       }
+  
 
     .zig-zag-footer:before {
       background: linear-gradient(-135deg, #ddd7c7 6px, transparent 0),
