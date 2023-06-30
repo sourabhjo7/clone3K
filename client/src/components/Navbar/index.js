@@ -30,11 +30,11 @@ const Navbar = () => {
       {/* Wide screen nav */}
       <section className="hidden lg:flex h-28 border-to theme-navbar-100 sticky top-0 z-10 flex-col-reverse items-center justify-center lg:border-t-8 lg:theme-border-300 zig-zag-header">
         <nav className="h-20 w-96 text-white flex items-center justify-between" aria-label="widescreen-nav">
-          <a href="" className="hover:theme-navbar-text-300">Home</a>
-          <a href="" className="hover:theme-navbar-text-300 pl-5 ">Header</a>
-          <a href="" className="hover:theme-navbar-text-300 px-5">Posts</a>
-          <a href="" className="hover:theme-navbar-text-300 pr-5">About</a>
-          <a href="" className="hover:theme-navbar-text-300 pr-5">Contact</a>
+          <a href="/" className="hover:theme-navbar-text-300">Home</a>
+          <a href="/" className="hover:theme-navbar-text-300 pl-5 ">Header</a>
+          <a href="posts/bored-at-home" className="hover:theme-navbar-text-300 px-5">Posts</a>
+          <a href="/about" className="hover:theme-navbar-text-300 pr-5">About</a>
+          <a href="/contact" className="hover:theme-navbar-text-300 pr-5">Contact</a>
           <img id="nav-social-link " src={socialMediaIcon} alt="social-media" className='' />
         </nav>
       </section>
@@ -63,12 +63,12 @@ const Navbar = () => {
         aria-label="smallscreen-nav"
         onClick={toggleMenu}
       >
-        <a href="" className="flex items-end pl-4 pb-4 hover:theme-navbar-text-300">Home</a>
-        <a href="" className="flex items-end pl-4 pb-4 hover:theme-navbar-text-300">Header</a>
-        <a href="" className="flex items-end pl-4 pb-4 hover:theme-navbar-text-300">Posts</a>
-        <a href="" className="flex items-end pl-4 pb-4 hover:theme-navbar-text-300">About</a>
-        <a href="" className="flex items-end pl-4 pb-4 hover:theme-navbar-text-300">Contact</a>
-        <a href="" className="flex gap-x-4 pl-4 pb-4 hover:theme-navbar-text-300">
+        <a href="/" className="flex items-end pl-4 pb-4 hover:theme-navbar-text-300">Home</a>
+        <a href="/" className="flex items-end pl-4 pb-4 hover:theme-navbar-text-300">Header</a>
+        <a href="posts/bored-at-home" className="flex items-end pl-4 pb-4 hover:theme-navbar-text-300">Posts</a>
+        <a href="/about" className="flex items-end pl-4 pb-4 hover:theme-navbar-text-300">About</a>
+        <a href="/contact" className="flex items-end pl-4 pb-4 hover:theme-navbar-text-300">Contact</a>
+        <a href="/contact" className="flex gap-x-4 pl-4 pb-4 hover:theme-navbar-text-300">
           <img src="./images/facebook.png" alt="facebook" className="w-5 h-5" />
           <img src="./images/twitter.png" alt="twitter" className="w-5 h-5" />
         </a>
