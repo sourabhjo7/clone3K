@@ -28,11 +28,11 @@ export default function Page() {
             <Navbar />
 
             <div className="flex  flex-col  mt-10 items-center ">
-              <div className=" flex max-w-[1380px] w-full  ">
+              <div className=" flex max-w-[1380px] w-full   ">
                 {/* cards div */}
                 <div className="w-full pr-10">
                   {/* all cards on the left col  */}
-                  <div className="flex flex-col mb-20 ">
+                  <div className="flex flex-col mb-20 zig-zag-card ">
                     <div>
                       <img
                         src="https://theburnhambox.com/frida/wp-content/uploads/sites/14/2019/01/frida-slider-6-1080x500.jpg"
@@ -200,7 +200,7 @@ export default function Page() {
                       </div>
                     </div>
                   </div>
-                  <div className="flex flex-col items-center w-full h-auto bg-white mb-20 p-10">
+                  <div className="flex flex-col items-center w-full h-auto bg-white mb-20 p-10 ">
                     <h1 className="text-4xl mb-10">Related Posts</h1>
                     <div className="flex ">
                       <div className="w-[55%] flex flex-col items-center">
