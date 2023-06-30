@@ -172,21 +172,21 @@ const Footer = () => {
             <h2 className="text-3xl theme-text-100 pt-7 pb-6">Popular Posts</h2>
             <ul className="list-none text-white">
               <li className="flex gap-x-5 pb-3">
-                <img className="w-16 h-11" src="./images/blog-poster-1.png" alt="" />
+                <img className="w-16 h-11" src="/./images/blog-poster-1.png" alt="" />
                 <section>
                   <h3 className="text-lg hover:theme-text-200">A Blue Morning</h3>
                   <p className="text-base theme-text-100 italic">June 22, 2023</p>
                 </section>
               </li>
               <li className="flex gap-x-5 pb-3">
-                <img className="w-16 h-11" src="./images/blog-poster-2.png" alt="" />
+                <img className="w-16 h-11" src="/./images/blog-poster-2.png" alt="" />
                 <section>
                   <h3 className="text-lg hover:theme-text-200">Bored At Home</h3>
                   <p className="text-base theme-text-100 italic">June 22, 2023</p>
                 </section>
               </li>
               <li className="flex gap-x-5 pb-3">
-                <img className="w-16 h-11" src="./images/blog-poster-3.png" alt="" />
+                <img className="w-16 h-11" src="/./images/blog-poster-3.png" alt="" />
                 <section>
                   <h3 className="text-lg hover:theme-text-200">New Zealand Trip</h3>
                   <p className="text-base theme-text-100 italic">June 22, 2023</p>
@@ -239,14 +239,14 @@ const Footer = () => {
           </p>
           <a href="#header" className="text-white flex gap-x-2 items-center hover:theme-text-200">
             Back to Top
-            <img className="h-4 w-4" src="./images/up-arrow.png" alt="arrow" />
+            <img className="h-4 w-4" src="/./images/up-arrow.png" alt="arrow" />
           </a>
           <span className="hidden lg:flex gap-x-5">
             <a href="">
-              <img className="w-4 h-4" src="./images/facebook2.png" alt="" />
+              <img className="w-4 h-4" src="/./images/facebook2.png" alt="" />
             </a>
             <a href="">
-              <img className="w-4 h-4" src="./images/twitter.png" alt="" />
+              <img className="w-4 h-4" src="/./images/twitter.png" alt="" />
             </a>
           </span>
         </section>

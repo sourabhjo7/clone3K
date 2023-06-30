@@ -7,12 +7,18 @@ const SideBarRight = () => {
     setSelectedMonth(event.target.value);
   };
   return (
-    <div className="flex flex-col ">
+    <div className="flex relative flex-col ">
+      
       {/* this is the right col  */}
+      <div className="relative">
+      <div className="absolute ml-[30%] mt-[35%] text-white  z-30  items-center opacity-50 ">
+            <h2 className="text-4xl pt-10 text-[#fffefe] font-bold ">About Me </h2>
+           </div>
       <img
         src="https://theburnhambox.com/frida/wp-content/uploads/sites/14/2019/01/frida-about-me6.jpg"
         alt="about me"
       />
+      </div>
       <div className="flex  flex-col  bg-white">
         <input
           type="text"

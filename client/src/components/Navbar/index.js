@@ -41,7 +41,7 @@ const Navbar = () => {
 
       {/* Logo */}
       <section className="flex justify-center items-center theme-body-100 h-52 px-5 lg:px-0">
-        <img src="./images/frida-logo.png" alt="" />
+        <img src="/./images/frida-logo.png" alt="logo" />
       </section>
 
       {/* Small screen nav */}

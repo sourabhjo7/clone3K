@@ -31,7 +31,12 @@ export default function Home() {
         <Navbar />
         
         <div className="flex  flex-col  mt-10 items-center ">
-          <div className="max-w-[1380px] w-full mb-10">
+         
+          <div className="max-w-[1380px] w-full mb-10 relative">
+          <div className="absolute ml-[30%] mt-[20%] text-white  bg-[#074c05] z-30 w-[40%] h-[40%] flex flex-col items-center opacity-50 ">
+            <h2 className="text-4xl pt-10 font-bold ">Stay Calm and Live </h2>
+            <p className="text-2xl pt-10 px-5 ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
             <CarouselComp slides={slides1} />
           </div>
 
