@@ -7,17 +7,19 @@ const SideBarRight = () => {
     setSelectedMonth(event.target.value);
   };
   return (
-    <div className="flex relative flex-col ">
+    <div className="flex relative flex-col  zig-zag-card">
       
       {/* this is the right col  */}
-      <div className="relative">
+      <div className="relative"> <a href="/about">
       <div className="absolute ml-[30%] mt-[35%] text-white  z-30  items-center opacity-50 ">
+        
             <h2 className="text-4xl pt-10 text-[#fffefe] font-bold ">About Me </h2>
            </div>
       <img
         src="https://theburnhambox.com/frida/wp-content/uploads/sites/14/2019/01/frida-about-me6.jpg"
         alt="about me"
       />
+      </a>
       </div>
       <div className="flex  flex-col  bg-white">
         <input
@@ -63,30 +65,36 @@ const SideBarRight = () => {
         <h3 className=" text-2xl text-[#9b4800] px-8 pt-6 ">Latest Posts</h3>
         <div className="flex flex-col px-8 pb-8 ">
           <div className="flex py-8">
+          <a href="/posts/bored-at-home">
             <img
               src="https://theburnhambox.com/frida/wp-content/uploads/sites/14/2019/01/frida-16-88x60.jpg"
               alt="latest post img"
             />
+            </a>
             <div className="flex flex-col ml-5">
               <h4 className="text-l">Bored at Home</h4>
               <h6 className="italic  text-[#777]">June 22, 2023</h6>
             </div>
           </div>
           <div className="flex pb-8">
+          <a href="/posts/bored-at-home">
             <img
               src="https://theburnhambox.com/frida/wp-content/uploads/sites/14/2019/01/frida-16-88x60.jpg"
               alt="latest post img"
             />
+            </a>
             <div className="flex flex-col ml-5">
               <h4 className="text-l">Bored at Home</h4>
               <h6 className="italic  text-[#777]">June 22, 2023</h6>
             </div>
           </div>
           <div className="flex">
+          <a href="/posts/bored-at-home">
             <img
               src="https://theburnhambox.com/frida/wp-content/uploads/sites/14/2019/01/frida-16-88x60.jpg"
               alt="latest post img"
             />
+            </a>
             <div className="flex flex-col ml-5">
               <h4 className="text-l">Bored at Home</h4>
               <h6 className="italic  text-[#777]">June 22, 2023</h6>

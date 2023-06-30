@@ -2,12 +2,14 @@ import React from "react";
 
 const Card = () => {
   return (
-    <div className="flex flex-col mb-20 ">
+    <div className="flex flex-col mb-20 zig-zag-card">
       <div>
+        <a href="/posts/bored-at-home" >
         <img
           src="https://theburnhambox.com/frida/wp-content/uploads/sites/14/2019/01/frida-slider-6-1080x500.jpg"
           alt="image aaegi "
         />
+        </a>
         
       </div>
       <div className="bg-white pt-10 ">

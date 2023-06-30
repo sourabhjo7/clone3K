@@ -16,8 +16,8 @@ export default function about() {
       <main className="flex flex-col  w-full min-h-screen bg-[#ddd7c7] ">
         <Navbar />
 
-        <div className="flex  flex-col  mt-10 items-center  zig-zag-about ">
-          <div className="flex flex-col mb-20 items-center ">
+        <div className="flex  flex-col  mt-30 items-center ">
+          <div className="flex flex-col  items-center zig-zag-about ">
             <div>
               <img
                 src="https://theburnhambox.com/frida/wp-content/uploads/sites/14/2015/02/16-1080x711.jpg"

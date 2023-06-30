@@ -27,6 +27,8 @@
     .theme-text-200 {
       color: #7a453d;
     }
+
+
     .zig-zag-header:before {
       background: linear-gradient(-45deg, #ddd7c7 12px, transparent 0),
         linear-gradient(45deg, #ddd7c7 12px, transparent 0);
@@ -43,20 +45,34 @@
     }
 
     .zig-zag-about:after {
-            background: linear-gradient(-135deg, #ffffff 12px, transparent 0), linear-gradient(135deg, #ffffff 12px, transparent 0);
-            background-position: left-bottom;
-            background-repeat: repeat-x;
-            background-size: 24px 24px;
-            content: " ";
-            position: relative;
+      background: linear-gradient(-135deg, #ffffff 12px, transparent 0),
+        linear-gradient(135deg, #ffffff 12px, transparent 0);
+      background-position: left-bottom;
+      background-repeat: repeat-x;
+      background-size: 24px 24px;
+      content: " ";
+      display: block;
+      bottom: 0px;
+      left: 0px;
+      width: 100%;
+      top: 30%;
+      height: 124px;
+    }
 
-            display: block;
-            bottom: 0px;
-            left: 0px;
-            width: 60%;
-            height: 100px;
-        
-      }
+    .zig-zag-card:after {
+      background: linear-gradient(-135deg, #ffffff 12px, transparent 0),
+        linear-gradient(135deg, #ffffff 12px, transparent 0);
+      background-position: left-bottom;
+      background-repeat: repeat-x;
+      background-size: 24px 24px;
+      content: " ";
+      display: block;
+      bottom: 0px;
+      left: 0px;
+      width: 100%;
+      top: 30%;
+      height: 50px;
+    }
   
 
     .zig-zag-footer:before {

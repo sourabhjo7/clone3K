@@ -2,7 +2,7 @@ import React from "react";
 
 const Card2 = () => {
   return (
-    <div className="flex flex-col mb-20 ">
+    <div className="flex flex-col mb-20 zig-zag-card ">
       <div>
         <iframe className="w-full h-[40vh]" src="https://www.youtube.com/embed/gYu2dEju6bI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
