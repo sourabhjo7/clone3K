@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = () => {
   return (
-    <div className="flex flex-col mb-20">
+    <div className="flex flex-col mb-20 ">
       <div>
         <img
           src="https://theburnhambox.com/frida/wp-content/uploads/sites/14/2019/01/frida-slider-6-1080x500.jpg"
@@ -56,7 +56,7 @@ const Card = () => {
   </svg>
        
         </div>
-        <div className="text-center py-10 pb-8  text-[#777]">
+        <div className="text-center py-10 pb-8  text-[#777] ">
           Category :<span className="text-[#1C7791]">Vintage</span>
         </div>
         

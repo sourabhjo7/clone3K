@@ -7,7 +7,7 @@ const SideBarRight = () => {
     setSelectedMonth(event.target.value);
   };
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col zig-zag-footer">
       {/* this is the right col  */}
       <img
         src="https://theburnhambox.com/frida/wp-content/uploads/sites/14/2019/01/frida-about-me6.jpg"

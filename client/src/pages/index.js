@@ -28,9 +28,7 @@ export default function Home() {
       </Head>
       <main className="flex flex-col  w-full min-h-screen bg-[#ddd7c7] ">
         <Navbar />
-        <div className="flex mt-20 justify-center ">
-          <Image src={Logo} alt="Logo" priority />
-        </div>
+        
         <div className="flex  flex-col  mt-10 items-center ">
           <div className="max-w-[1380px] w-full mb-10">
             <CarouselComp slides={slides1} />
