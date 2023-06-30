@@ -141,7 +141,7 @@ const Footer = () => {
     //     </div>
     //   </div>
     // </div>
-    <footer className="h-fit theme-body-200 zig-zag-footer">
+    <footer className="h-fit theme-body-200 zig-zag-footer mb-0 mt-auto ">
       <section className="w-full max-w-6xl m-auto pt-10 pb-6 px-5 py-5">
         <section className="flex lg:flex-row justify-between mb-5 flex-col">
           <section className="mr-10 mb-5">

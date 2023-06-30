@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = () => {
+const Card3= () => {
   return (
     <div className="flex flex-col mb-20 ">
       <div>
@@ -66,4 +66,4 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default Card3;

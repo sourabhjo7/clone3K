@@ -1,11 +1,12 @@
 import React , {useState} from 'react'
 
-
+import twiter from "../../../public/images/twitter.png";
+import fb from "../../../public/images/facebook.png"
 
 const Navbar = () => {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const [socialMediaIcon, setSocialMediaIcon] = useState('client\public\images\twitter.png');
+    const [socialMediaIcon, setSocialMediaIcon] = useState(twiter);
   
     const toggleMenu = () => {
       setIsMenuOpen(!isMenuOpen);
@@ -13,7 +14,7 @@ const Navbar = () => {
   
     const toggleSocialMediaIcon = () => {
       setSocialMediaIcon((prevIcon) =>
-        prevIcon === 'client\public\images\twitter.png' ? 'client\public\images\twitter.png' : 'client\public\images\twitter.png'
+        prevIcon === twiter ? twiter : fb
       );
     };
   
@@ -32,9 +33,9 @@ const Navbar = () => {
           <a href="" className="hover:theme-navbar-text-300">Home</a>
           <a href="" className="hover:theme-navbar-text-300 pl-5 ">Header</a>
           <a href="" className="hover:theme-navbar-text-300 px-5">Posts</a>
-          <a href="" className="hover:theme-navbar-text-300 px-5">About</a>
-          <a href="" className="hover:theme-navbar-text-300">Contact</a>
-          <img id="nav-social-link" src="" alt="social-media" className='' />
+          <a href="" className="hover:theme-navbar-text-300 pr-5">About</a>
+          <a href="" className="hover:theme-navbar-text-300 pr-5">Contact</a>
+          <img id="nav-social-link " src={socialMediaIcon} alt="social-media" className='' />
         </nav>
       </section>
 

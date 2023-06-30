@@ -1,16 +1,12 @@
 import React from "react";
 
-const Card = () => {
+const Card2 = () => {
   return (
     <div className="flex flex-col mb-20 ">
       <div>
-        <img
-          src="https://theburnhambox.com/frida/wp-content/uploads/sites/14/2019/01/frida-slider-6-1080x500.jpg"
-          alt="image aaegi "
-        />
-        
+        <iframe className="w-full h-[40vh]" src="https://www.youtube.com/embed/gYu2dEju6bI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
-      <div className="bg-white pt-10 ">
+      <div className="bg-[#0dcdf3] pt-10 ">
         <div className="flex w-full ">
           <h6 className="italic  mr-auto ml-20 text-[#777]">
             🕛 June 22, 2023
@@ -66,4 +62,4 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default Card2;
