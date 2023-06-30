@@ -25,7 +25,7 @@ export default function about() {
               />
 
             </div>
-            <div className="bg-white pt-10 max-w-[1080px] pb-20 ">
+            <div className="bg-white pt-10 max-w-[1013px] pb-20 ">
 
               <div className="text-center pt-5 pb-8 text-3xl text-[#555]">
                 Let's Get Connected
