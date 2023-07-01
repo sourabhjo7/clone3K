@@ -24,13 +24,13 @@ export default function Page() {
             />
             <link rel="icon" href="/favicon.ico" />
           </Head>
-          <main className="flex flex-col  w-full min-h-screen bg-[#ddd7c7] ">
+          <main className="flex flex-col  w-full min-h-screen bg-[#ddd7c7]  lg:px-5 ">
             <Navbar />
 
-            <div className="flex  flex-col  mt-10 items-center ">
-              <div className=" flex max-w-[1380px] w-full   ">
+            <div className="flex  flex-col  mt-10 items-center    px-5 lg:px-0">
+              <div className=" flex max-w-[1380px] w-full  md:flex-col  ">
                 {/* cards div */}
-                <div className="w-full pr-10">
+                <div className="w-full pr-10 md:pr-0 ">
                   {/* all cards on the left col  */}
                   <div className="flex flex-col mb-20 zig-zag-card ">
                     <div>

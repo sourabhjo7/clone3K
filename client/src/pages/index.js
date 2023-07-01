@@ -27,10 +27,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex flex-col  w-full min-h-screen bg-[#ddd7c7] px-5 ">
+      <main className="flex flex-col  w-full min-h-screen bg-[#ddd7c7] lg:px-5">
         <Navbar />
         
-        <div className="flex  flex-col  mt-10 items-center flex-wrap">
+        <div className="flex  flex-col  mt-10 items-center flex-wrap px-5 lg:px-0">
          
           <div className="max-w-[1380px] w-full mb-10 relative">
           <div className="absolute ml-[30%] mt-[20%] text-white lg:w-[60%] lg:ml-[20%] sm:w-[90%]  sm:mx-7 xs:mx-5 sm:px-5  bg-[#074c05] z-30 w-[40%] h-[40%] flex  flex-col items-center opacity-50 ">
