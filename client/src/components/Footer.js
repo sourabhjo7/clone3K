@@ -79,8 +79,13 @@ const Footer = () => {
     //         <a href="#" className="text-[#ffffff] hover:text-[#9b4800]">
     //           photo,
     //         </a>
-    //         &nbsp;
-    //         <a href="#" className="text-[#ffffff] hover:text-[#9b4800]">
+    //         &nbsp;//
+    //
+    //
+    //
+    //
+    //
+    //  ffffff] hover:text-[#9b4800]">
     //           travel,
     //         </a>
     //         &nbsp;
@@ -143,7 +148,7 @@ const Footer = () => {
     // </div>
     <footer className="h-fit theme-body-200 zig-zag-footer mb-0 mt-auto ">
       <section className="w-full max-w-6xl m-auto pt-10 pb-6 px-5 py-5">
-        <section className="flex lg:flex-row justify-between mb-5 flex-col">
+        <section className="flex  justify-between mb-5 lg:flex-col">
           <section className="mr-10 mb-5">
             <h2 className="text-3xl theme-text-100 pt-7 pb-6">Categories</h2>
             <ul className="list-none text-white">
@@ -172,64 +177,90 @@ const Footer = () => {
             <h2 className="text-3xl theme-text-100 pt-7 pb-6">Popular Posts</h2>
             <ul className="list-none text-white">
               <li className="flex gap-x-5 pb-3">
-                <img className="w-16 h-11" src="/./images/blog-poster-1.png" alt="" />
+                <img
+                  className="w-16 h-11"
+                  src="/./images/blog-poster-1.png"
+                  alt=""
+                />
                 <section>
-                  <h3 className="text-lg hover:theme-text-200">A Blue Morning</h3>
-                  <p className="text-base theme-text-100 italic">June 22, 2023</p>
+                  <h3 className="text-lg hover:theme-text-200">
+                    A Blue Morning
+                  </h3>
+                  <p className="text-base theme-text-100 italic">
+                    June 22, 2023
+                  </p>
                 </section>
               </li>
               <li className="flex gap-x-5 pb-3">
-                <img className="w-16 h-11" src="/./images/blog-poster-2.png" alt="" />
+                <img
+                  className="w-16 h-11"
+                  src="/./images/blog-poster-2.png"
+                  alt=""
+                />
                 <section>
-                  <h3 className="text-lg hover:theme-text-200">Bored At Home</h3>
-                  <p className="text-base theme-text-100 italic">June 22, 2023</p>
+                  <h3 className="text-lg hover:theme-text-200">
+                    Bored At Home
+                  </h3>
+                  <p className="text-base theme-text-100 italic">
+                    June 22, 2023
+                  </p>
                 </section>
               </li>
               <li className="flex gap-x-5 pb-3">
-                <img className="w-16 h-11" src="/./images/blog-poster-3.png" alt="" />
+                <img
+                  className="w-16 h-11"
+                  src="/./images/blog-poster-3.png"
+                  alt=""
+                />
                 <section>
-                  <h3 className="text-lg hover:theme-text-200">New Zealand Trip</h3>
-                  <p className="text-base theme-text-100 italic">June 22, 2023</p>
+                  <h3 className="text-lg hover:theme-text-200">
+                    New Zealand Trip
+                  </h3>
+                  <p className="text-base theme-text-100 italic">
+                    June 22, 2023
+                  </p>
                 </section>
               </li>
             </ul>
           </section>
 
-          <section className="lg:max-w-xs">
-            <h2 className="text-3xl theme-text-100 pt-7 pb-6">Tags</h2>
-            <p className="theme-text-100">
-              <a href="#" className="text-white hover:theme-text-200">
-                animals
+          <section className="2xl:max-w-xs">
+            <h2 className="text-3xl theme-text-100 pt-7 pb-6 px-8 lg:px-0">Tags</h2>
+
+            <div className="flex flex-wrap px-8 lg:px-0 py-8 max-w-[350px]">
+              <a href="#" className="text-[#ffffff] hover:text-[#9b4800]">
+                animals,
               </a>
-              ,
-              <a href="#" className="text-white hover:theme-text-200">
-                cooking
+              &nbsp;
+              <a href="#" className="text-[#ffffff] hover:text-[#9b4800]">
+                cooking,
               </a>
-              ,
-              <a href="#" className="text-white hover:theme-text-200">
-                countries
+              &nbsp;
+              <a href="#" className="text-[#ffffff] hover:text-[#9b4800]">
+                countries,
               </a>
-              ,
-              <a href="#" className="text-white hover:theme-text-200">
-                home
+              &nbsp;
+              <a href="#" className="text-[#ffffff] hover:text-[#9b4800]">
+                home,
               </a>
-              ,
-              <a href="#" className="text-white hover:theme-text-200">
-                likes
+              &nbsp;
+              <a href="#" className="text-[#ffffff] hover:text-[#9b4800]">
+                likes,
               </a>
-              ,
-              <a href="#" className="text-white hover:theme-text-200">
-                photo
+              &nbsp;
+              <a href="#" className="text-[#ffffff] hover:text-[#9b4800]">
+                photo,
               </a>
-              ,
-              <a href="#" className="text-white hover:theme-text-200">
-                travel
+              &nbsp;
+              <a href="#" className="text-[#ffffff] hover:text-[#9b4800]">
+                travel,
               </a>
-              ,
-              <a href="#" className="text-white hover:theme-text-200">
+              &nbsp;
+              <a href="#" className="text-[#ffffff] hover:text-[#9b4800]">
                 video
               </a>
-            </p>
+              &nbsp;
+            </div>
           </section>
         </section>
 
@@ -237,11 +268,14 @@ const Footer = () => {
           <p className="theme-text-100 italic items-center">
             &copy; 2023 Frida. All rights reserved
           </p>
-          <a href="#header" className="text-white flex gap-x-2 items-center hover:theme-text-200">
+          <a
+            href="#header"
+            className="text-white flex gap-x-2 items-center hover:theme-text-200"
+          >
             Back to Top
             <img className="h-4 w-4" src="/./images/up-arrow.png" alt="arrow" />
           </a>
-          <span className="hidden lg:flex gap-x-5">
+          <span className="2xl:hidden flex gap-x-5">
             <a href="">
               <img className="w-4 h-4" src="/./images/facebook2.png" alt="" />
             </a>

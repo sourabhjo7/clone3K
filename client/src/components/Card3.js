@@ -12,12 +12,12 @@ const Card3= () => {
         </a>
         
       </div>
-      <div className="bg-white pt-10 ">
-        <div className="flex w-full ">
-          <h6 className="italic  mr-auto ml-20 text-[#777]">
+      <div className="bg-white pt-10 px-0">
+        <div className="flex w-full lg:flex-col lg:items-center">
+          <h6 className="italic  mr-auto ml-20 lg:m-0 text-[#777]">
             🕛 June 22, 2023
           </h6>
-          <h6 className="ml-auto mr-20">
+          <h6 className="ml-auto mr-20 lg:m-0">
             {" "}
             <span className="italic  text-[#777]">🖋️ by </span>{" "}
             <a href="#">Nolan</a>
@@ -26,7 +26,7 @@ const Card3= () => {
         <div className="text-center pt-5 pb-8 text-3xl text-[#555]">
           Bored at Home{" "}
         </div>
-        <p className=" flex font-[1.4em] leading-8 text-[#444] px-20 ">
+        <p className=" flex font-[1.4em] leading-8 text-[#444] px-20 lg:px-5 ">
           Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
           labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
           et accusam et justo duo dolores et ea rebum. Stet clita kasd

@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <header id="header" className="relative flex flex-col z-10">
       {/* Wide screen nav */}
-      <section className="hidden lg:flex h-28 border-to theme-navbar-100 sticky top-0 z-10 flex-col-reverse items-center justify-center lg:border-t-8 lg:theme-border-300 zig-zag-header">
+      <section className="lg:hidden flex h-28 border-to theme-navbar-100 sticky top-0 z-10 flex-col-reverse items-center justify-center lg:border-t-8 lg:theme-border-300 zig-zag-header">
         <nav className="h-20 w-96 text-white flex items-center justify-between" aria-label="widescreen-nav">
           <a href="/" className="hover:theme-navbar-text-300">Home</a>
           <a href="/" className="hover:theme-navbar-text-300 pl-5 ">Header</a>
@@ -40,7 +40,7 @@ const Navbar = () => {
       </section>
 
       {/* Logo */}
-      <section className="flex justify-center items-center theme-body-100 h-52 px-5 lg:px-0">
+      <section className="flex justify-center items-center theme-body-100 h-52 px-5 ">
         <img src="/./images/frida-logo.png" alt="logo" />
       </section>
 
@@ -48,7 +48,7 @@ const Navbar = () => {
       {/* Button */}
       <section
         id="hamburger-button"
-        className="lg:hidden flex items-center justify-end theme-navbar-100 w-full px-2.5 py-1 text-white text-2xl"
+        className="hidden lg:flex items-center justify-end theme-navbar-100 w-full px-2.5 py-1 text-white text-2xl"
         onClick={toggleMenu}
       >
         <span className="cursor-pointer">&#9776;</span>
@@ -57,7 +57,7 @@ const Navbar = () => {
       {/* Expanded */}
       <nav
         id="mobile-menu"
-        className={`lg:hidden ${
+        className={` ${
           isMenuOpen ? 'flex' : 'hidden'
         } theme-navbar-100 w-full mb-5 px-2.5 py-1 text-white flex-col transition-all ease-in-out`}
         aria-label="smallscreen-nav"

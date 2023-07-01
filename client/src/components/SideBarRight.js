@@ -18,6 +18,7 @@ const SideBarRight = () => {
       <img
         src="https://theburnhambox.com/frida/wp-content/uploads/sites/14/2019/01/frida-about-me6.jpg"
         alt="about me"
+        className="w-full"
       />
       </a>
       </div>
